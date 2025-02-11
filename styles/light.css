@@ -13,7 +13,8 @@
   --hover-btn-color: rgba(50, 49, 45, 0.4);
 }
 
-.theme-light .page .header__theme-menu-button {
+.theme-light .page .header__theme-menu-button,
+.theme-light .page .section__title {
   color: var(--text-color);
 }
 
@@ -23,7 +24,7 @@
   --bg-color: var(--text-color);
 }
 
-.theme-light .page .section__title-decor,
+.theme-light .page .header__theme-menu-button:focus-visible,
 .theme-light .page .header__theme-menu-button_active,
 .theme-light .page .decorated-zone::before,
 .theme-light .page .decorated-zone::after {
