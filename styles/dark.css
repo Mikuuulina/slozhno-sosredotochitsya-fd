@@ -18,7 +18,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-dark {
+  :root {
     --bg-image: url(../images/cover-image-dark.png);
     --bg-color: #000028;
     --text-color: #f1b2ce;
