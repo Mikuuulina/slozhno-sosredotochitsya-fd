@@ -8,9 +8,13 @@
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
   --text-color: #353430;
+  --header-menu-color:#353430;
   --main-title-color:#ffc2e6;
   --title-decor: #ff8dcb;
   --hover-btn-color: rgba(50, 49, 45, 0.4);
+  --section-title: #353430;
+  --section-subtitle: #353430;
+  --section-decor: #FF8DCB;
 }
 
 .theme-light .page .header__decor-element-dark-theme {
@@ -22,8 +26,16 @@
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;
     --text-color: #353430;
+    --header-menu-color:#353430;
     --main-title-color:#ffc2e6;
     --title-decor: #ff8dcb;
     --hover-btn-color: rgba(50, 49, 45, 0.4);
+    --section-title: #353430;
+    --section-subtitle: #353430;
+    --section-decor: #FF8DCB;
+  }
+
+  .header__decor-element-dark-theme {
+    display: none;
   }
 }

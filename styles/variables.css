@@ -6,14 +6,18 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex mono';
-  --bg-color: #000028;
-  --text-color: #f1b2ce;
-  --main-title-color:#db00ff;
   --main-text-size: 1.125rem;
   --main-line-height: 130%;
   --regular-font-weight: 400;
   --bold--font-weight: 700;
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --header-menu-color:#ff0070;
+  --main-title-color:#db00ff;
   --title-decor: #ff0070;
+  --section-title: #ff0070;
+  --section-subtitle: #000028;
+  --section-decor: #ff0070;
   --hover-btn-color: rgba(255, 0, 112, 0.4);
 }
 
