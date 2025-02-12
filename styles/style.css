@@ -386,11 +386,6 @@
     grid-column: 2 / 3;
   }
 
-  .focus .article-container {
-    grid-row: 1 / 1;
-    grid-column: 2 / 3;
-  }
-
   .factors {
     grid-template-columns: min-content 1fr;
     margin-block-start: 20px;
