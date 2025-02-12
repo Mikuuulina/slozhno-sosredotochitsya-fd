@@ -317,7 +317,7 @@
 
 /*Для светлой темы*/
 
-.header__theme-menu-button,
+/*.header__theme-menu-button,
 .section__title {
   color: var(--text-color);
 }
@@ -333,7 +333,7 @@
 .decorated-zone::before,
 .decorated-zone::after {
   --title-decor: var(--text-color);
-}
+}*/
 
 
 @media (width >= 768px) {
