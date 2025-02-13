@@ -15,6 +15,7 @@
   min-inline-size: 375px;
   max-inline-size: 767px;
   background-color: var(--bg-color);
+  margin: 0 auto;
 }
 
 .text-decor {
