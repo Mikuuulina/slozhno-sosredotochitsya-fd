@@ -17,21 +17,7 @@
   --hover-btn-color: rgba(255, 0, 112, 0.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-image: url(../images/cover-image-dark.png);
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --header-menu-color:#ff0070;
-    --main-title-color:#db00ff;
-    --title-decor: #ff0070;
-    --section-title: #ff0070;
-    --section-subtitle: #000028;
-    --section-decor: #ff0070;
-    --hover-btn-color: rgba(255, 0, 112, 0.4);
-  }
-
-  .header__decor-element-dark-theme {
-    display: block;
-  }
+.theme-dark .header-rec {
+  display: block;
 }
+

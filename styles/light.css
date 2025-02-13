@@ -17,7 +17,7 @@
   --section-decor: #FF8DCB;
 }
 
-.theme-light .page .header__decor-element-dark-theme {
+.theme-light .header-rec {
   display: none;
 }
 
@@ -35,7 +35,7 @@
     --section-decor: #FF8DCB;
   }
 
-  .header__decor-element-dark-theme {
+  .header-rec {
     display: none;
   }
 }
