@@ -313,7 +313,7 @@
 
 @media (width >=768px) {
   .page {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     max-inline-size: 1023px;
   }
 
