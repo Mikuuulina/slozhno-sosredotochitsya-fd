@@ -12,8 +12,6 @@
   font-size: var(--main-text-size);
   font-weight: var(--regular-font-weight);
   line-height: var(--main-line-height);
-  min-inline-size: 375px;
-  max-inline-size: 767px;
   background-color: var(--bg-color);
 }
 
@@ -312,11 +310,6 @@
 }
 
 @media (width >=768px) {
-  .page {
-    /*margin: 0 auto;*/
-    max-inline-size: 1023px;
-  }
-
   .header,
   .footer {
     min-block-size: 1024px;
@@ -434,7 +427,6 @@
 }
 
 @media (width >= 1024px) {
-
   .header,
   .footer {
     min-block-size: 768px;
