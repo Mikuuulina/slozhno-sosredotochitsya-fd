@@ -62,7 +62,7 @@
   line-height: 100%;
   cursor: pointer;
   padding: 4px 13px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .header__theme-menu-button_active {
@@ -103,13 +103,12 @@
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
   background-color: var(--section-decor);
-  margin-block-end: 10px;
 }
 
 .section__link {
   text-shadow: 2px 2px 0 var(--title-decor);
   text-decoration: none;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 /*Секции*/
@@ -125,11 +124,11 @@
   grid-auto-flow: column;
 }
 
-.content-section:nth-child(1) {
+.focus {
   margin-block-start: 40px;
 }
 
-.article-container {
+.section-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column: 1 / 4;
@@ -139,21 +138,21 @@
   grid-auto-flow: column;
 }
 
-.article-card {
+.section-card {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.article__text {
+.section-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
- .section__title,
- .article-card,
- .advice .section__subtitle {
+.section__title,
+.section-card,
+.advice .section__subtitle {
   grid-column: 1 / 4;
 }
 
@@ -161,12 +160,9 @@
   margin-block-end: 0;
 }
 
-.advice-list {
-  display: flex;
-  flex-direction: column;
+.advice .section-container {
   gap: 20px;
 }
-
 
 /*Галерея изображений*/
 
@@ -353,7 +349,7 @@
     grid-row: 1 / 2;
   }
 
-  .article-container {
+  .section-container {
     grid-column: 2 / 4;
     grid-row: 1 / 2;
   }
@@ -363,7 +359,7 @@
     margin-block-start: 40px;
   }
 
-  .factors .article-container {
+  .factors .section-container {
     grid-column: 1 / 4;
     grid-row: 2 / 2;
   }
@@ -384,7 +380,7 @@
     align-self: start;
   }
 
-  .advice .article-container {
+  .advice .section-container {
     grid-row: 2 / 2;
   }
 
@@ -446,25 +442,15 @@
     grid-template-columns: 1fr 2.06fr;
   }
 
-  .factors .article-container {
-    grid-column: 1 / -1;
-    grid-row: 2 span;
+  .factors .section-container {
+    grid-auto-flow: row;
   }
 
-  .factors .article-card:nth-child(1) {
-    grid-column: 1 / 2;
-  }
-
-  .factors .article-card:nth-child(2) {
-    grid-column: 2 / 3;
-  }
-
-  .factors .article-card:nth-child(3) {
-    grid-column: 3 / 4;
+  .factors .section-card {
+    grid-column: auto;
   }
 
   .advice {
     column-gap: 28px;
   }
 }
-
